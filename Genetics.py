@@ -1,11 +1,8 @@
 import random
-from time import time
-from utils import init_population, fitness_function, roulette, crossingover, mutation, selection
-import numpy as np
-
+from data.utils import init_population, fitness_function, roulette, crossingover, mutation, selection
 
 nbr={} #dico avec {chiffre initial: []}
-with open("data9.txt", 'r') as f:
+with open("data/data1.txt", 'r') as f:
     n= int(f.readline())
     e=int(f.readline())
     b=int(f.readline())
