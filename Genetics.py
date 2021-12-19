@@ -7,7 +7,7 @@ start = time.time()
 
 nbr={} #dico avec {chiffre initial: []}
 numbers = []
-with open("data/data9.txt", 'r') as f:
+with open("data/data2.txt", 'r') as f:
     n= int(f.readline())
     e=int(f.readline())
     b=int(f.readline())
